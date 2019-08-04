@@ -19,11 +19,11 @@ void setup() {
 };
 
 void Forward(){
-  digitalWrite(HighL,LOW);  //Code may change for our motor from ow to high
+  digitalWrite(HighL,LOW);  //Code may change for our motor from low to high
   digitalWrite(LowL,HIGH);  // and vice versa
   analogWrite(EnableL,255);
 
-  digitalWrite(HighR,LOW);  //Code may change for our motor from ow to high
+  digitalWrite(HighR,LOW);  //Code may change for our motor from low to high
   digitalWrite(LowR,HIGH);  //and vice versa
   analogWrite(EnableR,255);
 }
@@ -34,7 +34,7 @@ void Backward(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,255); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,255);
 }
@@ -44,7 +44,7 @@ void Right1(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,255); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,200);
 }
@@ -54,7 +54,7 @@ void Right2(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,255); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,160);
 }
@@ -64,7 +64,7 @@ void Right3(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,255); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,100);
 }
@@ -75,7 +75,7 @@ void Left1(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,200); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,255);
 }
@@ -86,7 +86,7 @@ void Left2(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,160); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,255);
 }
@@ -96,7 +96,7 @@ void Left3(){
   digitalWrite(LowL,LOW);   //Code may change for our motor from low to high 
   analogWrite(EnableL,100); //and vice versa
 
-  digitalWrite(HighR,HIGH); //Code may change for our motor from ow to high
+  digitalWrite(HighR,HIGH); //Code may change for our motor from low to high
   digitalWrite(LowR,LOW);   // and vice versa
   analogWrite(EnableR,255);
 }

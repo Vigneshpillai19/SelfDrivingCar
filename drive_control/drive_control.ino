@@ -3,12 +3,13 @@ const int HighL = 6;     //Left Side Motors
 const int LowL = 7;
 
 const int EnableL = 10;
-const int HighL = 8;    //Right Side Motors
-const int LowRL = 9;
+const int HighR = 8;    //Right Side Motors
+const int LowR = 9;
 
 
 void setup() {
   // put your setup code here, to run once:
+  // Enabling the pins for receiving the output
   pinMode(EnableL,OUTPUT);
   pinMode(HighL,OUTPUT);
   pinMode(LowL,OUTPUT);
@@ -16,6 +17,7 @@ void setup() {
   pinMode(EnableR,OUTPUT);
   pinMode(HighR,OUTPUT);
   pinMode(LowR,OUTPUT);
+  // end method
 };
 
 void Forward(){

@@ -2,9 +2,9 @@ const int EnableL = 5;
 const int HighL = 6;     //Left Side Motors
 const int LowL = 7;
 
-const int EnableL = 10;
-const int HighL = 8;    //Right Side Motors
-const int LowRL = 9;
+const int EnableR = 10;
+const int HighR = 8;    //Right Side Motors
+const int LowR = 9;
 
 
 void setup() {

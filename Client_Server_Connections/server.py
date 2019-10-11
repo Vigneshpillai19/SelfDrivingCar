@@ -1,22 +1,15 @@
 # TCP Server Script
-
-import MySQLdb
-
-db = MySQLdb.connect(host="localhost",    # your host, usually localhost
-                     user="root",         # your username
-                     passwd="",  # your password
-                     db="test_python")
-cursor = db.cursor()
-cursor.execute("UPDATE emp set gender = 'M'")
-cursor.commit()
-db.close()
+# cursor = db.cursor()
+# cursor.execute("UPDATE emp set gender = 'M'")
+# cursor.commit()
+# db.close()
 
 import socket
 
-localIP   = "192.168.43.24"
+localIP   = "192.168.1.7"
 localPort = 20001
 
-print("hello")
+#print("hello")
 
 bufferSize = 1024
 

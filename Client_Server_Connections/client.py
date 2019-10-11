@@ -1,7 +1,7 @@
 # TCP client
 import socket
 
-localIP   = "192.168.137.172"
+localIP   = "172.20.10.2"
 localPort = 20001
 
 bufferSize = 1024

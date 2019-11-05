@@ -5,7 +5,7 @@ import socket
 localIP   = "192.168.1.104"
 localPort = 20001
 
-print("hello")
+#print("hello")
 
 bufferSize = 1024
 
